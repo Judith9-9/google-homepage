@@ -1,0 +1,105 @@
+body {
+    background-color: white;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    padding: 10px;
+}
+
+.navbar {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+.grid {
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position-x: -132px;
+    background-position-y: -38px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: rgb(0, 0, 0);
+    line-height: normal;
+    opacity: 0.55;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+ .signin {
+     background-color: blue;
+     color: white;
+ } 
+
+.logo {
+    display: flex;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 109px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+}
+.search {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    line-height: 34px;
+    width: 500px;  
+}
+
+.calltoaction {
+    float: center;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1 {
+    color: #5F6368;
+    background-color: #f2f5f5;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 4px;
+    line-height: 27px;
+    margin: 10px;
+}
+.button2 {
+    color: #5F6368;
+    background-color: #f2f5f5;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 4px;
+    line-height: 27px;
+}
+.footer {
+    text-align: left;
+    color: #5f6368;
+    line-height: 40px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footerPrivacy {
+    float: right;
+}
